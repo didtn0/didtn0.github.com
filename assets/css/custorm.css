@@ -1,0 +1,35 @@
+/* layout.css */
+body {
+    font-size: 0.75em;
+    background-color: #F44336;
+    font-family: 'Open Sans', sans-serif;
+    color: #eceff1;
+    line-height: 1.5; }
+
+.m-header .header_intro {
+    color: #eceff1;
+}
+
+.m-button {
+    display: block;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color: #F44336;
+    min-width: 92px;
+    box-model: border-box;
+}
+
+.m-highlight {
+    background-color: #fff;
+    color: #263238;
+}
+
+.m-button:hover {
+    background-color: #F44336;
+}
+
+/* layout.css :182 */
+.m-highlight a {
+    color: #D32F2F;
+    text-decoration: underline;
+}
