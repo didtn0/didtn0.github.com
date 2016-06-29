@@ -1,4 +1,4 @@
-/* layout.css */
+/* layout.css : 4 */
 body {
     font-size: 0.75em;
     background-color: #F44336;
@@ -6,10 +6,17 @@ body {
     color: #eceff1;
     line-height: 1.5; }
 
+/* layout.css : 81 */
 .m-header .header_intro {
     color: #eceff1;
 }
+.annotated {
+    display: block;
+    margin: 1em auto;
+    color: yellow;
+}
 
+/* layout.css : 89 */
 .m-button {
     display: block;
     padding: 0.5em;
@@ -19,16 +26,28 @@ body {
     box-model: border-box;
 }
 
+/* layout.css : 101 */
+.m-button:hover {
+    background-color: #F44336;
+}
+/* layout.css : 69 */
+.m-header {
+    /*position: relative;*/
+    /*padding: 4.25em 4.25em 2em;*/
+    max-width: 90em; }
+
+/* layout.css : 119 */
+.m-segment .segment_content {
+    /*margin: 16px 0;*/
+    max-width: 90em; }
+
+/* layout.css : 168 */
 .m-highlight {
     background-color: #fff;
     color: #263238;
 }
 
-.m-button:hover {
-    background-color: #F44336;
-}
-
-/* layout.css :182 */
+/* layout.css :172 */
 .m-highlight a {
     color: #D32F2F;
     text-decoration: underline;
